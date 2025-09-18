@@ -10,12 +10,12 @@ background: lightseagreen;
 #container{
     width: 80%;
     margin: auto;
-    box-shadow: 0px 0px 10px grey;
+    box-shadow: 0px 0px 10px rgb(17, 119, 235);
     background: white;
 }
 #header{
     height: 140px;
-    background: #f0f0f0;
+    background: #e0b9fa;
 }
 #logo{
     padding: 20px;
@@ -39,4 +39,43 @@ background: lightseagreen;
     margin-left: 30px;
     text-shadow: opx 0px 2px rgb(209, 95, 95);
     transition: all 300ms;
+}
+
+#logo a: hover{
+text-shadow: 0px 2px 1px #222222; 0px 0px 4px #01b1ea
+}
+
+#menu{
+    clear: both;
+    background-color: rgb(125, 163, 235);
+    color: violet;
+    height: 55px;
+    border-bottom: 4px solid #121fdb;
+}
+
+#menu ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    margin-left: 25px;
+}
+
+#menu ul li{
+    line-height: 55px;
+    float: left;
+    border-right: 1px solid #460aee;
+}
+
+#menu a{
+    display: block;
+    color: rgb(121, 2, 121);
+    text-decoration:none;
+    pedding-left: 12px;
+    padding-right: 12px;
+    transition: all 300ms;
+}
+
+#menu a:hover{
+    background: #843897;
+
 }
